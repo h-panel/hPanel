@@ -6,10 +6,10 @@
 @endsection
 
 @section('content-header')
-    <h1>Jexactyl Appearance<small>Configure the theme for Jexactyl.</small></h1>
+    <h1>hPanel Appearance<small>Configure the theme for hPanel.</small></h1>
     <ol class="breadcrumb">
         <li><a href="{{ route('admin.index') }}">Admin</a></li>
-        <li class="active">Jexactyl</li>
+        <li class="active">hPanel</li>
     </ol>
 @endsection
 
@@ -21,7 +21,7 @@
                 <div class="box box-info
                 ">
                     <div class="box-header with-border">
-                        <h3 class="box-title">Admin Themes <small>The selection for Jexactyl's theme.</small></h3>
+                        <h3 class="box-title">Admin Themes <small>The selection for hPanel's theme.</small></h3>
                     </div>
                     <div class="box-body">
                         <div class="row">
@@ -29,13 +29,9 @@
                                 <label class="control-label">Admin Theme</label>
                                 <div>
                                     <select name="theme:admin" class="form-control">
-                                        <option @if ($admin == 'jexactyl') selected @endif value="jexactyl">Default Theme</option>
-                                        <option @if ($admin == 'dark') selected @endif value="dark">Dark Theme</option>
-                                        <option @if ($admin == 'light') selected @endif value="light">Light Theme</option>
-                                        <option @if ($admin == 'blue') selected @endif value="blue">Blue Theme</option>
-                                        <option @if ($admin == 'minecraft') selected @endif value="minecraft">Minecraft&#8482; Theme</option>
+                                        <option @if ($admin == 'jexactyl') selected @endif value="jexactyl">hUI v3</option>
                                     </select>
-                                    <p class="text-muted"><small>Determines the theme for Jexactyl's Admin UI.</small></p>
+                                    <p class="text-muted"><small>Determines the theme for hPanel's Admin UI.</small></p>
                                 </div>
                             </div>
                         </div>
