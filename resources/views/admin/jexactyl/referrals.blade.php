@@ -9,7 +9,7 @@
     <h1>Referral System<small>Allow users to refer others to the Panel to earn resources.</small></h1>
     <ol class="breadcrumb">
         <li><a href="{{ route('admin.index') }}">Admin</a></li>
-        <li class="active">Jexactyl</li>
+        <li class="active">hPanel</li>
     </ol>
 @endsection
 
