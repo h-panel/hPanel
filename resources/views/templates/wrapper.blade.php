@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Halex</title>
+        <title>hPanel</title>
 
         @section('meta')
             <meta charset="utf-8">
@@ -9,12 +9,9 @@
             <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
             <meta name="csrf-token" content="{{ csrf_token() }}">
             <meta name="robots" content="noindex">
-            <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.discordapp.com/attachments/987734229469253674/1008833382957973675/Copy_of_untitled_29.png">
-            <link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/987734229469253674/1008833382957973675/Copy_of_untitled_29.png" sizes="32x32">
-            <link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/987734229469253674/1008833382957973675/Copy_of_untitled_29.png" sizes="16x16">
             <link rel="manifest" href="/favicons/manifest.json">
             <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#bc6e3c">
-            <link rel="shortcut icon" href="/favicons/favicon.ico">
+            <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/987734229469253674/1012679062889697330/Purple_Dark_Blue_Modern_Letter_H_Logo_Technology.png">
             <meta name="msapplication-config" content="/favicons/browserconfig.xml">
             <meta name="theme-color" content="#0e4688">
         @show
