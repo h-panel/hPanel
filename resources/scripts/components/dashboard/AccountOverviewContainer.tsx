@@ -36,7 +36,7 @@ export default () => {
     return (
         <PageContentBlock title={'Account Overview'}>
             <h1 className={'j-left text-5xl'}>Your account</h1>
-            <h3 className={'j-left text-2xl text-neutral-500'}>View information related to your Halex account</h3>
+            <h3 className={'j-left text-2xl text-neutral-500'}>View information related to your account</h3>
             {state?.twoFactorRedirect && (
                 <Alert type={'error'}>
                     Your account must have two-factor authentication enabled in order to continue.
