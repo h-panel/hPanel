@@ -65,14 +65,14 @@
                         </div>
                     </div>
                     <div class="form-group col-xs-12">
-                        <label for="public" class="control-label">Allow Automatic Allocation <sup><a data-toggle="tooltip" data-placement="top" title="Allow automatic allocation to this Node?">?</a></sup></label>
+                        <label for="public" class="control-label">Allow Automatic Allocation <sup><a data-toggle="tooltip" data-placement="top" title="Allow automatic allocation to this node?">?</a></sup></label>
                         <div>
                             <input type="radio" name="public" value="1" {{ (old('public', $node->public)) ? 'checked' : '' }} id="public_1" checked> <label for="public_1" style="padding-left:5px;">Yes</label><br />
                             <input type="radio" name="public" value="0" {{ (old('public', $node->public)) ? '' : 'checked' }} id="public_0"> <label for="public_0" style="padding-left:5px;">No</label>
                         </div>
                     </div>
                     <div class="form-group col-xs-12">
-                        <label for="fqdn" class="control-label">Fully Qualified Domain Name</label>
+                        <label for="fqdn" class="control-label">Domain</label>
                         <div>
                             <input type="text" autocomplete="off" name="fqdn" class="form-control" value="{{ old('fqdn', $node->fqdn) }}" />
                         </div>
@@ -217,7 +217,7 @@
                 </div>
                 <div class="box-body row">
                     <div class="form-group col-xs-12">
-                        <label for="deployable" class="control-label">Suitable for Storefront deployment</label>
+                        <label for="deployable" class="control-label">hPanel server creation</label>
                         <div>
                             <div class="radio radio-success radio-inline">
                                 <input type="radio" id="pDeployableTrue" value="1" name="deployable" {{ (old('deployable', $node->deployable)) ? 'checked' : '' }}>
@@ -229,7 +229,7 @@
                             </div>
                         </div>
                         <p class="text-muted"><small>
-                            This option allows you to control whether this node is visible via the Server Creation page of the Jexactyl Storefront.
+                            This option allows you to control whether this node is visible via the create server page.
                             If it is set to disabled, users will not be able to deploy on this node.
                         </small></p>
                     </div>
