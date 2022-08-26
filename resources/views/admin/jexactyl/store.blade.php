@@ -1,15 +1,11 @@
 @extends('layouts.admin')
 @include('partials/admin.jexactyl.nav', ['activeTab' => 'store'])
 
-@section('title')
-    Jexactyl Settings
-@endsection
-
 @section('content-header')
-    <h1>Jexactyl Store<small>Configure the Jexactyl storefront.</small></h1>
+    <h1>Resources & Coins<small>Configure settings related to resources & coins.</small></h1>
     <ol class="breadcrumb">
         <li><a href="{{ route('admin.index') }}">Admin</a></li>
-        <li class="active">Jexactyl</li>
+        <li class="active">hPanel</li>
     </ol>
 @endsection
 
@@ -26,18 +22,18 @@
                     @endif
                 ">
                     <div class="box-header with-border">
-                        <i class="fa fa-shopping-cart"></i> <h3 class="box-title">Jexactyl Storefront <small>Configure whether certain options for the store are enabled.</small></h3>
+                        <i class="fa fa-shopping-cart"></i> <h3 class="box-title">Coins & Resources System <small>Configure whether certain options for the coins & resources system are enabled.</small></h3>
                     </div>
                     <div class="box-body">
                         <div class="row">
                             <div class="form-group col-md-4">
-                                <label class="control-label">Storefront Enabled</label>
+                                <label class="control-label">UI Enabled</label>
                                 <div>
                                     <select name="store:enabled" class="form-control">
                                         <option @if ($enabled == 'false') selected @endif value="false">Disabled</option>
                                         <option @if ($enabled == 'true') selected @endif value="true">Enabled</option>
                                     </select>
-                                    <p class="text-muted"><small>Determines whether users can access the store UI.</small></p>
+                                    <p class="text-muted"><small>Determines whether users can access the UI for coins & resources.</small></p>
                                 </div>
                             </div>
                             <div class="form-group col-md-4">
@@ -47,7 +43,7 @@
                                         <option @if ($paypal_enabled == 'false') selected @endif value="false">Disabled</option>
                                         <option @if ($paypal_enabled == 'true') selected @endif value="true">Enabled</option>
                                     </select>
-                                    <p class="text-muted"><small>Determines whether users can buy credits with PayPal.</small></p>
+                                    <p class="text-muted"><small>Determines whether users can buy coins with PayPal.</small></p>
                                 </div>
                             </div>
                             <div class="form-group col-md-4">
@@ -57,7 +53,7 @@
                                         <option @if ($stripe_enabled == 'false') selected @endif value="false">Disabled</option>
                                         <option @if ($stripe_enabled == 'true') selected @endif value="true">Enabled</option>
                                     </select>
-                                    <p class="text-muted"><small>Determines whether users can buy credits with Stripe.</small></p>
+                                    <p class="text-muted"><small>Determines whether users can buy coins with Stripe.</small></p>
                                 </div>
                             </div>
                             <div class="form-group col-md-4">
@@ -71,7 +67,7 @@
                                         <option @if ($currency == 'CAD') selected @endif value="CAD">CAD (Canadian dollar)</option>
                                         <option @if ($currency == 'AUD') selected @endif value="AUD">AUD (Australian dollar)</option>
                                     </select>
-                                    <p class="text-muted"><small>The name of the currency used for Jexactyl.</small></p>
+                                    <p class="text-muted"><small>The name of the currency used for hPanel.</small></p>
                                 </div>
                             </div>
                         </div>
@@ -79,7 +75,7 @@
                 </div>
                 <div class="box box-info">
                     <div class="box-header with-border">
-                        <i class="fa fa-money"></i> <h3 class="box-title">Idle Earning <small>Configure settings for passive credit earning.</small></h3>
+                        <i class="fa fa-money"></i> <h3 class="box-title">AFK Page <small>Configure settings for AFK coin earning.</small></h3>
                     </div>
                     <div class="box-body">
                         <div class="row">
@@ -90,14 +86,14 @@
                                         <option @if ($earn_enabled == 'false') selected @endif value="false">Disabled</option>
                                         <option @if ($earn_enabled == 'true') selected @endif value="true">Enabled</option>
                                     </select>
-                                    <p class="text-muted"><small>Determines whether users can earn credits passively.</small></p>
+                                    <p class="text-muted"><small>Determines whether users can AFK to earn coins.</small></p>
                                 </div>
                             </div>
                             <div class="form-group col-md-4">
-                                <label class="control-label">Amount of credits per minute</label>
+                                <label class="control-label">Amount of coins per minute</label>
                                 <div>
                                     <input type="text" class="form-control" name="earn:amount" value="{{ $earn_amount }}" />
-                                    <p class="text-muted"><small>The amount of credits a user should be given per minute of AFK.</small></p>
+                                    <p class="text-muted"><small>The amount of coins a user should be given per minute of AFK.</small></p>
                                 </div>
                             </div>
                         </div>
