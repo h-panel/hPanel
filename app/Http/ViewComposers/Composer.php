@@ -42,7 +42,7 @@ class Composer
         $setting = $this->settings->get('jexactyl::' . $data, false);
 
         if ($data == 'logo') {
-            return $this->settings->get('settings::app:logo', 'https://avatars.githubusercontent.com/u/91636558');
+            return $this->settings->get('settings::app:logo', 'https://cdn.discordapp.com/attachments/987734229469253674/1012679062889697330/Purple_Dark_Blue_Modern_Letter_H_Logo_Technology.png');
         }
 
         switch ($type) {
