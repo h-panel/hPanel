@@ -1,15 +1,11 @@
 @extends('layouts.admin')
 @include('partials/admin.jexactyl.nav', ['activeTab' => 'registration'])
 
-@section('title')
-    Jexactyl Settings
-@endsection
-
 @section('content-header')
-    <h1>User Registration<small>Configure settings for user registration on Jexactyl.</small></h1>
+    <h1>User Registration<small>Configure settings for user registration on hPanel.</small></h1>
     <ol class="breadcrumb">
         <li><a href="{{ route('admin.index') }}">Admin</a></li>
-        <li class="active">Jexactyl</li>
+        <li class="active">hPanel</li>
     </ol>
 @endsection
 
@@ -51,7 +47,7 @@
                 @endif
                 ">
                     <div class="box-header with-border">
-                        <i class="fa fa-comments-o"></i> <h3 class="box-title">Registration via Discord <small>The settings for Discord registration and logins.</small></h3>
+                        <i class="fa fa-comments-o"></i> <h3 class="box-title">Registration via Discord <small>A guide on how to set this up is available on the hPanel docs site.</small></h3>
                     </div>
                     <div class="box-body">
                         <div class="row">
