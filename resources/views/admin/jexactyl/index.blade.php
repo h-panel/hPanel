@@ -9,7 +9,7 @@
     <h1>hPanel Settings<small>Configure general settings for hPanel.</small></h1>
     <ol class="breadcrumb">
         <li><a href="{{ route('admin.index') }}">Admin</a></li>
-        <li class="active">Jexactyl</li>
+        <li class="active">hPanel</li>
     </ol>
 @endsection
 
@@ -28,7 +28,7 @@
                     <i class="fa fa-code-fork"></i> <h3 class="box-title">hPanel Version <small>Verify hPanel is up-to-date.</small></h3>
                 </div>
                 <div class="box-body">
-                       You are running hPanel ={{ config('app.version') }}. 
+                       You are running hPanel {{ config('app.version') }}. 
                 </div>
             </div>
         </div>
