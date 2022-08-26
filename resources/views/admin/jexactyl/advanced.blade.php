@@ -9,7 +9,7 @@
     <h1>Advanced<small>Configure advanced settings for the Panel.</small></h1>
     <ol class="breadcrumb">
         <li><a href="{{ route('admin.index') }}">Admin</a></li>
-        <li class="active">Jexactyl</li>
+        <li class="active">hPanel</li>
     </ol>
 @endsection
 
