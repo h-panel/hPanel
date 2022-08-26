@@ -56,16 +56,16 @@ export default () => {
                             Choose an amount...
                         </option>
                         <option key={'stripe:buy:100'} value={100}>
-                            Purchase 100 credits
+                            Purchase 100 coins
                         </option>
                         <option key={'stripe:buy:200'} value={200}>
-                            Purchase 200 credits
+                            Purchase 200 coins
                         </option>
                         <option key={'stripe:buy:500'} value={500}>
-                            Purchase 500 credits
+                            Purchase 500 coins
                         </option>
                         <option key={'stripe:buy:1000'} value={1000}>
-                            Purchase 1000 credits
+                            Purchase 1000 coins
                         </option>
                     </Select>
                     <div css={tw`mt-6`}>
