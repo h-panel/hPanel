@@ -22,19 +22,19 @@ export default () => {
         <>
             {store.earn.enabled ? (
                 <InformationBox icon={faCircle} iconCss={'animate-pulse'}>
-                    Earning <span className={'text-green-600'}>{store.earn.amount}</span> HalexCoin per minute
+                    Earning <span className={'text-green-600'}>{store.earn.amount}</span> coin(s) per minute
                 </InformationBox>
             ) : (
                 <InformationBox icon={faExclamationCircle}>
-                    Credit earning is currently <span className={'text-red-600'}>disabled.</span>
+                    AFK coin earning is currently <span className={'text-red-600'}>disabled</span>
                 </InformationBox>
             )}
             <InformationBox icon={faCoins}>
-                You have <span className={'text-green-600'}>{bal}</span> HalexCoins
+                You have <span className={'text-green-600'}>{bal}</span> coin(s)
             </InformationBox>
             {user.useTotp ? (
                 <InformationBox icon={faUserLock}>
-                    <span className={'text-green-600'}>2FA is enabled</span> on your account.
+                    <span className={'text-green-600'}>2FA is enabled</span> on your account
                 </InformationBox>
             ) : (
                 <InformationBox icon={faUserLock}>
