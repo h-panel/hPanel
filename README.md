@@ -10,7 +10,7 @@ User side:
 ![Logo Image](https://cdn.discordapp.com/attachments/987734229469253674/1012679464251043962/unknown.png)
 
 Admin side:
-![Logo Image](https://cdn.discordapp.com/attachments/987734229469253674/1012744539510939749/unknown.png)
+![Logo Image](https://cdn.discordapp.com/attachments/987734229469253674/1012755396814966845/unknown.png)
 
 ## Documentation
 Head over to the [hPanel docs](https://docs.halexnodes.net) to learn how to install hPanel.
