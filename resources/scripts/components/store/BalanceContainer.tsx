@@ -40,15 +40,15 @@ export default () => {
 
     return (
         <PageContentBlock title={'Account Balance'}>
-            <h1 className={'j-left text-5xl'}>HalexCoins</h1>
-            <h3 className={'j-left text-2xl mt-2 text-neutral-500'}>View information related to HalexCoins</h3>
+            <h1 className={'j-left text-5xl'}>Coins</h1>
+            <h3 className={'j-left text-2xl mt-2 text-neutral-500'}>View information related to your coins</h3>
             <Container className={'j-up lg:grid lg:grid-cols-2 my-10'}>
                 <ContentBox title={'Account Balance'} showFlashes={'account:balance'} css={tw`sm:mt-0`}>
                     <h1 css={tw`text-7xl flex justify-center items-center`}>
-                        <span className={'text-base ml-4'}>{resources.balance} HalexCoins</span>
+                        <span className={'text-base ml-4'}>{resources.balance} coins</span>
                     </h1>
                 </ContentBox>
-                <ContentBox title={'Purchase HalexCoins'} showFlashes={'account:balance'} css={tw`mt-8 sm:mt-0 sm:ml-8`}>
+                <ContentBox title={'Purchase coins'} showFlashes={'account:balance'} css={tw`mt-8 sm:mt-0 sm:ml-8`}>
                     {paypal && <PaypalPurchaseForm />}
                     {stripe && <StripePurchaseForm />}
                 </ContentBox>
