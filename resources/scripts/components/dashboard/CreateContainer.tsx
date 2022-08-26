@@ -117,7 +117,7 @@ export default () => {
             <StoreError
                 message={'Server creation is currently disabled due to lack of capacity. Come back later.'}
                 admin={'Ensure you have at least one node that can be deployed to.'}
-                link={'https://docs.jexactyl.com'}
+                link={'https://docs.halexnodes.net/'}
             />
         );
     }
