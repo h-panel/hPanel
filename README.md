@@ -17,7 +17,7 @@ Head over to the [hPanel docs](https://docs.halexnodes.net) to learn how to inst
 
 ## Partners
 
-| Company | About | Sponsor |
+| Company | About |  Owner  |
 | ------- | ----- | ------- |
 | [**HalexNodes**](https://halexnodes.net) | The free 24/7 host hPanel was orginally built for. | [@b4dsk](https://halexnodes.net) |
 
