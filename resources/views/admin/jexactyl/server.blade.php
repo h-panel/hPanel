@@ -6,10 +6,10 @@
 @endsection
 
 @section('content-header')
-    <h1>Server Settings<small>Configure Jexactyl's server settings.</small></h1>
+    <h1>Server Settings<small>Configure hPanel's server settings.</small></h1>
     <ol class="breadcrumb">
         <li><a href="{{ route('admin.index') }}">Admin</a></li>
-        <li class="active">Jexactyl</li>
+        <li class="active">hPanel</li>
     </ol>
 @endsection
 
@@ -26,7 +26,7 @@
                     @endif
                 ">
                     <div class="box-header with-border">
-                        <i class="fa fa-clock-o"></i> <h3 class="box-title">Server Renewals <small>Configure settings for server renewals.</small></h3>
+                        <i class="fa fa-clock-o"></i> <h3 class="box-title">Server Renewals <small>This is experimental and may not show in the frontend. This will be fixed soon.</small></h3>
                     </div>
                     <div class="box-body">
                         <div class="row">
