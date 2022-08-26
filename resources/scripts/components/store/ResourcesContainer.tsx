@@ -86,7 +86,7 @@ export default () => {
                             +50% CPU
                         </Button.Success>
                     </Wrapper>
-                    <p css={tw`mt-1 text-gray-500 text-xs flex justify-center`}>Cost per 50% CPU: {cost.cpu} HalexCoins</p>
+                    <p css={tw`mt-1 text-gray-500 text-xs flex justify-center`}>Cost per 50% CPU: {cost.cpu} coins</p>
                 </TitledGreyBox>
                 <TitledGreyBox title={'Purchase RAM'} css={tw`mt-8 sm:mt-0 sm:ml-8`}>
                     <Wrapper>
@@ -103,7 +103,7 @@ export default () => {
                         </Button.Success>
                     </Wrapper>
                     <p css={tw`mt-1 text-gray-500 text-xs flex justify-center`}>
-                        Cost per 1GB RAM: {cost.memory} HalexCoins
+                        Cost per 1GB RAM: {cost.memory} coins
                     </p>
                 </TitledGreyBox>
                 <TitledGreyBox title={'Purchase Disk'} css={tw`mt-8 sm:mt-0 sm:ml-8`}>
@@ -121,7 +121,7 @@ export default () => {
                         </Button.Success>
                     </Wrapper>
                     <p css={tw`mt-1 text-gray-500 text-xs flex justify-center`}>
-                        Cost per 1GB disk: {cost.disk} HalexCoins
+                        Cost per 1GB disk: {cost.disk} coins
                     </p>
                 </TitledGreyBox>
             </Container>
@@ -140,7 +140,7 @@ export default () => {
                             +1 slot
                         </Button.Success>
                     </Wrapper>
-                    <p css={tw`mt-1 text-gray-500 text-xs flex justify-center`}>Cost per slot: {cost.slot} HalexCoins</p>
+                    <p css={tw`mt-1 text-gray-500 text-xs flex justify-center`}>Cost per slot: {cost.slot} coins</p>
                 </TitledGreyBox>
                 <TitledGreyBox title={'Purchase Server Ports'} css={tw`mt-8 sm:mt-0 sm:ml-8`}>
                     <Wrapper>
@@ -156,7 +156,7 @@ export default () => {
                             +1 port
                         </Button.Success>
                     </Wrapper>
-                    <p css={tw`mt-1 text-gray-500 text-xs flex justify-center`}>Cost per port: {cost.port} HalexCoins</p>
+                    <p css={tw`mt-1 text-gray-500 text-xs flex justify-center`}>Cost per port: {cost.port} coins</p>
                 </TitledGreyBox>
                 <TitledGreyBox title={'Purchase Server Backups'} css={tw`mt-8 sm:mt-0 sm:ml-8`}>
                     <Wrapper>
@@ -173,7 +173,7 @@ export default () => {
                         </Button.Success>
                     </Wrapper>
                     <p css={tw`mt-1 text-gray-500 text-xs flex justify-center`}>
-                        Cost per backup slot: {cost.backup} HalexCoins
+                        Cost per backup slot: {cost.backup} coins
                     </p>
                 </TitledGreyBox>
                 <TitledGreyBox title={'Purchase Server Databases'} css={tw`mt-8 sm:mt-0 sm:ml-8`}>
@@ -191,7 +191,7 @@ export default () => {
                         </Button.Success>
                     </Wrapper>
                     <p css={tw`mt-1 text-gray-500 text-xs flex justify-center`}>
-                        Cost per database: {cost.database} HalexCoins
+                        Cost per database: {cost.database} coins
                     </p>
                 </TitledGreyBox>
             </Container>
