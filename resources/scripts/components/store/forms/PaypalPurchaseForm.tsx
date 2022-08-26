@@ -56,16 +56,16 @@ export default () => {
                             Choose an amount...
                         </option>
                         <option key={'paypal:buy:100'} value={100}>
-                            100 HalexCoins
+                            100 coins
                         </option>
                         <option key={'paypal:buy:200'} value={200}>
-                            200 HalexCoins
+                            200 coins
                         </option>
                         <option key={'paypal:buy:500'} value={500}>
-                            500 HalexCoins
+                            500 coins
                         </option>
                         <option key={'paypal:buy:1000'} value={1000}>
-                            1000 HalexCoins
+                            1000 coins
                         </option>
                     </Select>
                     <div css={tw`mt-6`}>
