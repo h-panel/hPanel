@@ -42,7 +42,7 @@
         <div class="wrapper">
             <header class="main-header">
                 <a href="{{ route('index') }}" class="logo">
-                    <img src="https://avatars.githubusercontent.com/u/91636558" width="48" height="48" />
+                    <img src="https://cdn.discordapp.com/attachments/987734229469253674/1012679062889697330/Purple_Dark_Blue_Modern_Letter_H_Logo_Technology.png" width="48" height="48" />
                 </a>
             </header>
             <aside class="main-sidebar">
