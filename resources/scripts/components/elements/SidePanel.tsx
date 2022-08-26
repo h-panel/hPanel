@@ -44,7 +44,7 @@ export default () => {
     return (
         <PanelDiv>
             <Link to={'/'}>
-                <img css={tw`p-4`} src={'https://cdn.discordapp.com/attachments/987734229469253674/1012679062889697330/Purple_Dark_Blue_Modern_Letter_H_Logo_Technology.png'} />
+                <img css={tw`p-4`} src={logo ?? 'https://cdn.discordapp.com/attachments/987734229469253674/1012679062889697330/Purple_Dark_Blue_Modern_Letter_H_Logo_Technology.png'} />
             </Link>
             <div>
                 <div css={tw`mx-auto mb-8`} className={'navigation-link'}>
