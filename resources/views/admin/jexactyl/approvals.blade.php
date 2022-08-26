@@ -9,7 +9,7 @@
     <h1>User Approvals<small>Allow or deny requests to create accounts.</small></h1>
     <ol class="breadcrumb">
         <li><a href="{{ route('admin.index') }}">Admin</a></li>
-        <li class="active">Jexactyl</li>
+        <li class="active">hPanel</li>
     </ol>
 @endsection
 
