@@ -1,10 +1,11 @@
 ![Logo Image](https://cdn.discordapp.com/attachments/987734229469253674/1012682012072628244/jexbanner_1.png)
 
-# hPanel
+# hPanel 0.5.0
 hPanel is a fork of [Jexactyl](https://jexactyl.com) for hosting companies with a cleaner UI, less bugs & more features.
 
 ## Theme
 Check out our modern & simple default theme in hPanel:
+
 ![Logo Image](https://cdn.discordapp.com/attachments/987734229469253674/1012679464251043962/unknown.png)
 
 ## Documentation
