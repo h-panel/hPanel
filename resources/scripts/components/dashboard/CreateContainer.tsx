@@ -213,7 +213,7 @@ export default () => {
                         </TitledGreyBox>
                     </StoreContainer>
                     <h1 className={'j-left text-5xl'}>Deployment</h1>
-                    <h3 className={'j-left text-2xl text-neutral-500'}>Choose a node/location and server type</h3>
+                    <h3 className={'j-left text-2xl text-neutral-500'}>Choose a node and egg</h3>
                     <StoreContainer className={'lg:grid lg:grid-cols-3 my-10 gap-4'}>
                         <TitledGreyBox title={'Available Nodes'} icon={faLayerGroup} className={'mt-8 sm:mt-0'}>
                             <Select name={'node'} onChange={(e) => setNode(parseInt(e.target.value))}>
@@ -225,7 +225,7 @@ export default () => {
                                 ))}
                             </Select>
                         </TitledGreyBox>
-                        <TitledGreyBox title={'Server Type Category'} icon={faCube} className={'mt-8 sm:mt-0'}>
+                        <TitledGreyBox title={'Nest'} icon={faCube} className={'mt-8 sm:mt-0'}>
                             <Select name={'nest'} onChange={(nest) => changeNest(nest)}>
                                 {nests.map((n) => (
                                     <option key={n.id} value={n.id}>
@@ -234,7 +234,7 @@ export default () => {
                                 ))}
                             </Select>
                         </TitledGreyBox>
-                        <TitledGreyBox title={'Server Type'} icon={faEgg} className={'mt-8 sm:mt-0'}>
+                        <TitledGreyBox title={'Egg'} icon={faEgg} className={'mt-8 sm:mt-0'}>
                             <Select name={'egg'} onChange={(e) => setEgg(parseInt(e.target.value))}>
                                 {eggs.map((e) => (
                                     <option key={e.id} value={e.id}>
