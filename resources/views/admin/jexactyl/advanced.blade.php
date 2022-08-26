@@ -25,7 +25,7 @@
                         <div class="box-body">
                             <div class="row">
                                 <div class="form-group col-md-4">
-                                    <label class="control-label">Company Name</label>
+                                    <label class="control-label">Panel Name</label>
                                     <div>
                                         <input type="text" class="form-control" name="app:name" value="{{ old('app:name', config('app.name')) }}" />
                                         <p class="text-muted"><small>This is the name that is used throughout the panel and in emails sent to clients.</small></p>
