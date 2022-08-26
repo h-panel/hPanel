@@ -1,11 +1,6 @@
-[![Logo Image](https://cdn.discordapp.com/attachments/987734229469253674/1012682012072628244/jexbanner_1.png)]
+![Logo Image](https://cdn.discordapp.com/attachments/987734229469253674/1012682012072628244/jexbanner_1.png)
 
-<a href="https://discord.gg/pSCYZ6WhnM">![Discord](https://img.shields.io/discord/1001186315058020403?style=for-the-badge)</a>
-![Downloads - Total](https://img.shields.io/github/downloads/h-panel/hpanel/total?style=for-the-badge)
-![Downloads - Latest](https://img.shields.io/github/downloads/h-panel/hpanel/latest/total?style=for-the-badge)
-![Version](https://img.shields.io/github/v/release/h-panel/hpanel?style=for-the-badge)
-
-# Jexactyl
+# hPanel
 Jexactyl is a fast, advanced and customisable game management panel and billing system in one.
 Built on [Pterodactyl](https://pterodactyl.io), this software is designed from the ground up with security and stability first.
 
