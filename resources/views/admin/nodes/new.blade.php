@@ -37,7 +37,7 @@
                         <textarea name="description" id="pDescription" rows="4" class="form-control">{{ old('description') }}</textarea>
                     </div>
                     <div class="form-group">
-                        <label for="pLocationId" class="form-label">Location</label>
+                        <label for="pLocationId" class="form-label">Location</label><br>
                         <select name="location_id" id="pLocationId">
                             @foreach($locations as $location)
                                 <option value="{{ $location->id }}" {{ $location->id != old('location_id') ?: 'selected' }}>{{ $location->short }}</option>
@@ -60,7 +60,7 @@
                         <p class="text-muted small">By setting a node to <code>private</code> you will be denying the ability to auto-deploy to this node.
                     </div>
                     <div class="form-group">
-                        <label class="form-label">Deployable via Jexactyl Store</label>
+                        <label class="form-label">Deployable via hPanel server creation</label>
                         <div>
                             <div class="radio radio-success radio-inline">
                                 <input type="radio" id="pDeployableTrue" value="1" name="deployable" checked>
@@ -72,12 +72,12 @@
                             </div>
                         </div>
                         <p class="text-muted"><small>
-                            This option allows you to control whether this node is visible via the Server Creation page of the Jexactyl Storefront.
+                            This option allows you to control whether this node is visible via the create server page.
                             If it is set to disabled, users will not be able to deploy on this node.
                         </small></p>
                     </div>
                     <div class="form-group">
-                        <label for="pFQDN" class="form-label">FQDN</label>
+                        <label for="pFQDN" class="form-label">Domain</label>
                         <input type="text" name="fqdn" id="pFQDN" class="form-control" value="{{ old('fqdn') }}"/>
                         <p class="text-muted small">Please enter domain name (e.g <code>node.example.com</code>) to be used for connecting to the daemon. An IP address may be used <em>only</em> if you are not using SSL for this node.</p>
                     </div>
