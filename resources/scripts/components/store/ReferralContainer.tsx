@@ -94,7 +94,7 @@ export default () => {
             <h3 className={'j-left text-2xl mt-2 text-neutral-500'}>Earn HalexCoins for inviting users</h3>
             <FlashMessageRender byKey={'referrals'} className={'mt-2'} />
             <Container className={'j-up lg:grid lg:grid-cols-3 my-10'}>
-                <ContentBox title={'Your Referral Codes'} css={tw`sm:mt-0`}>
+                <ContentBox title={'Your referral codes'} css={tw`sm:mt-0`}>
                     <Dialog.Confirm
                         title={'Delete Referral Code'}
                         confirm={'Delete Code'}
@@ -135,7 +135,7 @@ export default () => {
                 </ContentBox>
                 <ContentBox title={'Rewards'} css={tw`mt-8 sm:mt-0 sm:ml-8`}>
                     <h1 css={tw`text-xl`}>
-                        You will recieve <span className={'text-green-500'}>{reward}</span> HalexCoins for ever user who uses this referral code
+                        You will recieve <span className={'text-green-500'}>{reward}</span> coins for ever user who uses this referral code
                     </h1>
                 </ContentBox>
                 <ContentBox title={'Users Referred'} css={tw`mt-8 sm:mt-0 sm:ml-8`}>
