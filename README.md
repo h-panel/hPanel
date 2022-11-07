@@ -1,5 +1,8 @@
 ![Logo Image](https://cdn.discordapp.com/attachments/987734229469253674/1012682012072628244/jexbanner_1.png)
 
+## ⚠️ hPanel is no longer maintained ⚠️ 
+We suggest using Pterodactyl and [Heliactyl](https://github.com/betterheliactyl/heliactyl) as your dashboard or just use [Jexactyl](https://jexactyl.com) which is a panel & client in one like hPanel was
+
 ## hPanel Beta
 hPanel is a fork of [Jexactyl](https://jexactyl.com) (which is a fork of Pterodactyl) for hosting companies with a cleaner UI, less bugs & more features.
 
